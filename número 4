@@ -1,0 +1,12 @@
+#include<stdio.h>
+main(){
+
+  int multiplo, c;
+
+  while(c<=15){
+    multiplo= c*3;
+    printf("\n%d", multiplo);
+    c++;
+  }
+
+}
