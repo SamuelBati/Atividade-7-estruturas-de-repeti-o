@@ -1,0 +1,14 @@
+#include<stdio.h>
+main(){
+
+  int numero, contador=1;
+
+  printf("digite um numero real positivo por favor");
+    scanf("%d", &numero);
+
+  while(contador<=numero){
+    printf("%d", contador);
+    contador+=2;
+  }
+
+}
