@@ -1,0 +1,13 @@
+#include<stdio.h>
+main(){
+
+  int c=0, soma=0, numero=0;
+
+  while(c<50){
+    numero=numero+2;
+    soma+=numero;
+    contador++;
+    printf("\n%d", soma);
+  }
+
+}
