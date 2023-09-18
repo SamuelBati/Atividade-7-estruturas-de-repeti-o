@@ -1,0 +1,13 @@
+#include<stdio.h>
+main(){
+
+  int numero;
+
+  printf("por favor digite um número inteiro positivo");
+    scanf("%d", &numero);
+
+  for(int c=numero; c>=0; c--){
+    printf("%d", c);
+  }
+
+}
